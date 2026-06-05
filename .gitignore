@@ -1,5 +1,7 @@
 .env
 __pycache__/
 *.pyc
-papers/input/
-papers/output/
+papers/input/*
+papers/output/*
+!papers/input/.gitkeep
+!papers/output/.gitkeep
