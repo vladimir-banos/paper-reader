@@ -72,7 +72,7 @@ paper-reader/
 
 ## Author
 
-Vladimir Baños — Economics student, Universidad de Piura (UDEP)  
+Vladimir Baños — Economics student, Universidad de Piura (UDEP)
 
 ---
 
