@@ -15,8 +15,8 @@ Herramienta en Python que resume automáticamente papers académicos en PDF usan
 
 Se incluyen dos templates:
 
-- **default** — para papers de economía general: pregunta de investigación, marco teórico, estrategia empírica, datos, hallazgos, mecanismos, supuestos, limitaciones, contribución, extensiones. Prompt escrito en español.
-- **default_en** — misma estructura, prompt escrito en inglés.
+- **default** — para papers de economía general: pregunta de investigación, marco teórico, estrategia empírica, datos, hallazgos, mecanismos, supuestos, limitaciones, contribución, extensiones. Prompt escrito en inglés.
+- **default_es** — misma estructura, prompt escrito en español.
 
 Puedes crear tu propio template agregando un archivo `.txt` a la carpeta `templates/`. No se requiere ningún formato especial — solo escribe en texto plano las instrucciones que quieres que siga el modelo.
 
@@ -64,7 +64,7 @@ paper-reader/
 ├── .gitignore
 ├── templates/
 │   ├── default.txt
-│   └── default_en.txt
+│   └── default_es.txt
 └── papers/
     ├── input/        ← coloca tus PDFs aquí
     └── output/       ← resúmenes generados aquí
@@ -73,7 +73,6 @@ paper-reader/
 ## Autor
 
 Vladimir Baños — Estudiante de Economía, Universidad de Piura (UDEP)  
-Intereses de investigación: microeconomía aplicada, organización industrial, economía del desarrollo
 
 ---
 

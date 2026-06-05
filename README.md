@@ -15,8 +15,8 @@ A Python tool that automatically summarizes academic papers (PDF) using Google G
 
 Two templates are included:
 
-- **default** — for general economics papers: research question, theoretical framework, empirical strategy, data, findings, mechanisms, assumptions, limitations, contribution, extensions. Prompt written in Spanish.
-- **default_en** — same structure, prompt written in English.
+- **default** — for general economics papers: research question, theoretical framework, empirical strategy, data, findings, mechanisms, assumptions, limitations, contribution, extensions. Prompt written in English.
+- **default_es** — same structure, prompt written in Spanish.
 
 You can create your own template by adding a `.txt` file to the `templates/` folder. No special format required — just write plain text instructions describing what you want the summary to include.
 
@@ -64,7 +64,7 @@ paper-reader/
 ├── .gitignore
 ├── templates/
 │   ├── default.txt
-│   └── default_en.txt
+│   └── default_es.txt
 └── papers/
     ├── input/        ← place your PDFs here
     └── output/       ← summaries saved here
@@ -73,7 +73,6 @@ paper-reader/
 ## Author
 
 Vladimir Baños — Economics student, Universidad de Piura (UDEP)  
-Research interests: applied microeconomics, industrial organization, development economics
 
 ---
 
